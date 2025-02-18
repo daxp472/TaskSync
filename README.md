@@ -1,6 +1,6 @@
 # TaskSync
 
-[Deployed Site](https://tasksync.web.app)
+[Deployed Site](https://task-sync-1.netlify.app/)
 
 TaskSync is a task management web application that helps users organize their tasks efficiently. It allows users to create, update, delete, and reorder tasks using a simple and intuitive interface.
 
@@ -34,7 +34,7 @@ To set up TaskSync locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/TaskSync.git
+   git clone https://github.com/daxp472/TaskSync.git
    cd TaskSync
    ```
 
@@ -124,9 +124,9 @@ This project was created using the following resources:
 
 ## Screenshots
 
-[TaskSync Screenshot 1](https://i.imgur.com/6Q7Q6Q4.png)
-[TaskSync Screenshot 2](https://i.imgur.com/6Q7Q6Q4.png)
-[TaskSync Screenshot 3](https://i.imgur.com/6Q7Q6Q4.png)
+[TaskSync Screenshot 1](./src/assets/img-1.png)
+[TaskSync Screenshot 2](./src/assets/img-2.png)
+[TaskSync Screenshot 3](./src/assets/img-3.png)
 
 ```
 
