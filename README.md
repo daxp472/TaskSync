@@ -32,17 +32,17 @@ To set up TaskSync locally, follow these steps:
 ### Steps
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/TaskSync.git
    cd TaskSync
    ```
 
-```
-
 2. Install dependencies:
    ```bash
-npm install
-```
+   npm install
+   ```
+
 
 3. Set up Firebase:
    - Create a Firebase project.
@@ -69,10 +69,12 @@ const auth = getAuth(app);
 export { db, auth };
 
 ```
+
 4. Run the development server:
    ```bash
-npm start
-```
+   npm start
+   ```
+
 
 ## Usage
 
@@ -124,3 +126,4 @@ This project was created using the following resources:
 [TaskSync Screenshot 1](https://i.imgur.com/6Q7Q6Q4.png)
 [TaskSync Screenshot 2](https://i.imgur.com/6Q7Q6Q4.png)
 [TaskSync Screenshot 3](https://i.imgur.com/6Q7Q6Q4.png)
+```
