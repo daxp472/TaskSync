@@ -39,19 +39,20 @@ To set up TaskSync locally, follow these steps:
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
-
 
 3. Set up Firebase:
    - Create a Firebase project.
    - Enable Firestore Database and Authentication.
    - Create a `firebase.js` file and add your Firebase configuration:
      ```javascript
-     import { initializeApp } from 'firebase/app';
-     import { getFirestore } from 'firebase/firestore';
-     import { getAuth } from 'firebase/auth';
+     import { initializeApp } from "firebase/app";
+     import { getFirestore } from "firebase/firestore";
+     import { getAuth } from "firebase/auth";
+     ```
 
 const firebaseConfig = {
 apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -68,13 +69,12 @@ const auth = getAuth(app);
 
 export { db, auth };
 
-```
+````
 
 4. Run the development server:
    ```bash
    npm start
-   ```
-
+````
 
 ## Usage
 
@@ -126,4 +126,7 @@ This project was created using the following resources:
 [TaskSync Screenshot 1](https://i.imgur.com/6Q7Q6Q4.png)
 [TaskSync Screenshot 2](https://i.imgur.com/6Q7Q6Q4.png)
 [TaskSync Screenshot 3](https://i.imgur.com/6Q7Q6Q4.png)
+
+```
+
 ```
