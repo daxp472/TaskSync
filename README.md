@@ -48,7 +48,9 @@ To set up TaskSync locally, follow these steps:
    - Create a Firebase project.
    - Enable Firestore Database and Authentication.
    - Create a `firebase.js` file and add your Firebase configuration:
-     ```javascript
+
+
+```javascript
      import { initializeApp } from "firebase/app";
      import { getFirestore } from "firebase/firestore";
      import { getAuth } from "firebase/auth";
@@ -67,7 +69,7 @@ To set up TaskSync locally, follow these steps:
      const auth = getAuth(app);
 
      export { db, auth };
-    ```
+```
 
 
 4. Run the development server:
