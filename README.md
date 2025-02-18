@@ -124,9 +124,9 @@ This project was created using the following resources:
 
 ## Screenshots
 
-[TaskSync Screenshot 1](./src/assets/img-1.png)
-[TaskSync Screenshot 2](./src/assets/img-2.png)
-[TaskSync Screenshot 3](./src/assets/img-3.png)
+[![TaskSync Screenshot 1](./src/assets/img-1.png)](https://github.com/daxp472/TaskSync/blob/main/src/assets/img-1.png)
+[![TaskSync Screenshot 2](./src/assets/img-2.png)](https://github.com/daxp472/TaskSync/blob/main/src/assets/img-2.png)
+[![TaskSync Screenshot 3](./src/assets/img-3.png)](https://github.com/daxp472/TaskSync/blob/main/src/assets/img-3.png)
 
 ```
 
