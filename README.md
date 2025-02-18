@@ -60,13 +60,13 @@ To set up TaskSync locally, follow these steps:
      storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
      messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
      appId: process.env.REACT_APP_FIREBASE_APP_ID,
-    };
+     };
 
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
-    const auth = getAuth(app);
+     const app = initializeApp(firebaseConfig);
+     const db = getFirestore(app);
+     const auth = getAuth(app);
 
-    export { db, auth };
+     export { db, auth };
     ```
 
 
